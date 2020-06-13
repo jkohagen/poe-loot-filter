@@ -1,0 +1,1 @@
+java -jar filter-creator-1.0-SNAPSHOT.jar
