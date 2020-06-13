@@ -1,0 +1,571 @@
+# ===============================================================================================================
+# Currencies
+# ===============================================================================================================
+
+Show
+    Class "Currency"
+    BaseType "Scroll of Wisdom" "Portal Scroll" "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation" "Scroll Fragment" "Alchemy Shard" "Transmutation Shard" "Alteration Shard"
+    AreaLevel <= 60
+    SetBackgroundColor 232 140 40 
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 2 150
+    DisableDropSound
+
+Show
+    Class "Currency"
+	BaseType "Scroll of Wisdom"
+	SetTextColor 255 99 71
+	SetFontSize 42
+Show
+    Class "Currency"
+	BaseType "Portal Scroll"
+	SetTextColor 135 206 250
+	SetFontSize 42
+Show
+    Class "Currency"
+    BaseType  "Orb of Chance" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Transmutation" "Orb of Augmentation" "Scroll Fragment" "Alchemy Shard" "Transmutation Shard" "Alteration Shard"
+    SetFontSize 38
+    PlayAlertSound 2 150
+    DisableDropSound
+Show
+    Class "Currency"
+    BaseType "Regal Orb" "Orb of Regret" "Chaos Orb" "Blessed Orb" "Gemcutter's Prism" "Orb of Fusing" "Orb of Scouring" "Orb of Alchemy" "Glassblower's Bauble" "Vaal Orb" "Cartographer's Chisel" "Stacked Deck" "Orb of Annulment" "Harbinger's Orb" "Orb of Horizon" "Ancient Orb" "Annulment Shard" "Harbinger's Shard" "Ancient Shard" "Exalted Shard" "Horizon Shard" "Engineer's Shard" "Binding Shard" "Regal Shard" "Chaos Shard"
+    #SetBackgroundColor 254 170 0 
+    SetBackgroundColor 232 140 40 
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 2 300
+    DisableDropSound
+	MinimapIcon 1 Yellow Circle  
+Show
+    Class "Currency"
+	BaseType "Exalted Orb" "Eternal Orb" "Mirror of Kalandra" "Mirror Shard" "Albino Rhoa Feather" "Eternal Orb"
+    SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255
+	SetFontSize 45
+	PlayEffect Red
+    PlayAlertSound 7 300
+    DisableDropSound
+	MinimapIcon 0 Red Hexagon
+Show
+    Class "Currency"
+	BaseType "Divine Orb" "Bestiary Orb" "Imprinted Bestiary Orb"
+    SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255
+    SetFontSize 45
+    PlayEffect Red
+    PlayAlertSound 2 300
+    DisableDropSound
+	MinimapIcon 1 Red Hexagon 
+Show
+    Class "Currency"
+	BaseType "Journeyman Cartographer's Seal"
+	SetBorderColor 255 255 0
+	SetTextColor 255 255 0
+	SetBackgroundColor 254 170 0
+	SetFontSize 45
+    PlayAlertSound 2 300
+    DisableDropSound
+	MinimapIcon 1 Yellow Circle
+Show
+    Class "Currency"
+	BaseType "Master Cartographer's Seal"
+	SetBorderColor 255 0 0
+	SetTextColor 255 0 0
+	SetBackgroundColor 254 170 0
+	SetFontSize 45
+    PlayAlertSound 2 300
+    DisableDropSound
+	MinimapIcon 1 Yellow Circle
+Show
+    Class "Currency"
+	BaseType "Apprentice Cartographer's Seal" "Journeyman Cartographer's Seal" "Master Cartographer's Seal" "Unshaping Orb"
+	SetBorderColor 200 100 0 
+	SetTextColor 200 100 0
+	SetBackgroundColor 0 0 0
+	SetFontSize 45
+    PlayAlertSound 2 300
+    DisableDropSound
+	MinimapIcon 1 Yellow Circle
+Show
+    Class "Currency"
+    BaseType "Perandus Coin"
+	SetTextColor 255 178 135 255
+	SetBorderColor 255 178 135 135
+    SetFontSize 38
+Show
+    Class "Currency"
+	BaseType "Silver Coin"
+	SetTextColor 220 220 220
+	SetBorderColor 220 220 220
+    SetBackgroundColor 138 43 226 200
+    PlayAlertSound 2 300
+	SetFontSize 38
+Show
+	Class "Currency"
+	BaseType "Prophecy"
+	SetTextColor 123 16 111
+	SetBorderColor 123 16 111
+	SetBackgroundColor 16 6 25
+	SetFontSize 40
+Show
+    Class "Currency"
+    BaseType "Splinter of Xoph" "Splinter of Tul" "Splinter of Esh" "Splinter of Uul-Netol" "Splinter of Chayula" "Timeless Karui Splinter" "Timeless Maraketh Splinter" "Timeless Eternal Empire Splinter" "Timeless Templar Splinter" "Timeless Vaal Splinter"
+	SetTextColor 208 41 35
+	SetBorderColor 32 32 32
+	SetBackgroundColor 51 33 148
+	SetFontSize 30
+Show
+    Class "Currency"
+	BaseType "Blessing of Xoph" "Blessing of Tul" "Blessing of Esh" "Blessing of Uul-Netol" "Blessing of Chayula"
+    SetTextColor 51 33 148
+    SetBorderColor 51 33 148
+    SetBackgroundColor 255 255 255
+	SetFontSize 42
+	PlayAlertSound 2 300
+Show
+    Class "Currency"
+	BaseType "Reinforced Rope Net" "Strong Rope Net" "Simple Iron Net" "Reinforced Iron Net" "Strong Iron Net" "Simple Steel Net" "Reinforced Steel Net" "Strong Steel Net" "Thaumaturgical Net"
+	SetBackgroundColor 24 25 25
+	SetBorderColor 208 33 39
+	SetTextColor 208 33 39
+	SetFontSize 38
+	PlayAlertSound 2 300
+Show
+	Class "Currency"
+	BaseType "Whispering Essence of" "Muttering Essence of" "Weeping Essence of" "Wailing Essence of" "Screaming Essence of" "Shrieking Essence of" "Remnant of Corruption" "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium" "Deafening Essence of"
+	SetTextColor 0 255 255
+	SetBackgroundColor 0 130 255
+	SetBorderColor 0 0 0
+    SetFontSize 35
+    
+#------------------------------------
+#   Delve Socketable Currency
+#------------------------------------
+Show
+    BaseType "Primitive Alchemical Resonator" "Primitive Chaotic Resonator"
+    SetBackgroundColor 180 167 107
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 32
+Show
+    BaseType "Potent Alchemical Resonator" "Potent Chaotic Resonator"
+    SetBackgroundColor 180 167 107
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 38
+    PlayAlertSound 2 300
+    DisableDropSound
+    MinimapIcon 2 Yellow Triangle
+Show
+    BaseType "Powerful Alchemical Resonator" "Powerful Chaotic Resonator"
+    SetBackgroundColor 180 167 107
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 45
+    PlayEffect Yellow
+    PlayAlertSound 2 300
+    DisableDropSound
+    MinimapIcon 1 Yellow Hexagon
+Show
+    BaseType "Prime Alchemical Resonator" "Prime Chaotic Resonator"
+    SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255
+	SetFontSize 45
+	PlayEffect Red
+    PlayAlertSound 8 300
+    DisableDropSound
+    MinimapIcon 0 Red Diamond
+
+#------------------------------------
+#   Fossils
+#------------------------------------
+Show
+    BaseType "Faceted Fossil" "Glyphic Fossil" "Bloodstained Fossil" "Hollow Fossil" "Fractured Fossil" "Tangled Fossil"
+    SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255
+	SetFontSize 45
+	PlayEffect Red
+    PlayAlertSound 8 300
+    DisableDropSound
+    MinimapIcon 0 Red Star
+Show
+    BaseType "Sanctified Fossil" "Encrusted Fossil" "Gilded Fossil"
+    SetBackgroundColor 234 80 15 
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 2 300
+    DisableDropSound
+    MinimapIcon 1 Yellow Star  
+Show
+    BaseType "Shuddering Fossil" "Prismatic Fossil" "Aetheric Fossil" "Serrated Fossil" "Perfect Fossil" "Enchanted Fossil" "Jagged Fossil" "Lucent Fossil" "Bound Fossil" "Corroded Fossil" "Dense Fossil" "Pristine Fossil" "Metallic Fossil" "Aberrant Fossil" "Frigid Fossil" "Scorched Fossil"
+    SetBackgroundColor 234 80 15 
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetFontSize 40
+    PlayAlertSound 2 300
+    DisableDropSound
+	MinimapIcon 2 Yellow Circle  
+
+# ===============================================================================================================
+# Gems
+# ===============================================================================================================
+
+# only dropable (everythere)
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Enlighten Support" "Empower Support" "Enhance Support" "Detonate Mines" "Portal" "Added Chaos Damage Support"
+	SetBackgroundColor 255 255 255
+	SetBorderColor 27 162 155
+    PlayAlertSound 2 300
+	DisableDropSound
+	SetFontSize 35
+
+# only dropable (awakener)
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Awakened"
+	SetBackgroundColor 255 255 255
+	SetBorderColor 27 162 155
+    PlayAlertSound 2 300
+    DisableDropSound
+	SetFontSize 35
+
+## set quality boder
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	Quality >= 1
+	SetBorderColor 127 255 0
+    SetFontSize 35
+	Continue
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	Quality >= 10
+	SetBorderColor 255 215 0
+	Continue
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	Quality >= 15
+	SetBorderColor 255 64 64
+	Continue
+
+# set font size
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	GemLevel >= 10
+    SetFontSize 36
+    Continue
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	GemLevel >= 15
+	SetFontSize 40
+    Continue
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	GemLevel >= 18
+	SetFontSize 40
+    Continue
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	GemLevel >= 19
+	SetFontSize 42
+    Continue
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	GemLevel >= 20
+	SetFontSize 45
+    Continue
+
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+	Corrupted True
+	SetBackgroundColor 210 0 0 150
+
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Vaal Breach" 
+	SetTextColor 213 162 155
+	SetBorderColor 171 100 255
+	SetBackgroundColor 75 55 82 180
+	SetFontSize 45
+
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+    AreaLevel <= 66
+
+Hide
+	Class "Active Skill Gems" "Support Skill Gems"
+    DisableDropSound
+	AreaLevel > 66
+
+# ===============================================================================================================
+# Maps
+# ===============================================================================================================
+
+# Tier 1
+Show
+	Class "Maps"
+	MapTier = 1
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 255 255
+	SetFontSize	40
+	PlayAlertSound 16 250
+	DisableDropSound
+	MinimapIcon 1 White Square
+	PlayEffect White
+# Tier 2
+Show
+	Class "Maps"
+	MapTier = 2
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 255 255
+	SetFontSize	40
+	PlayAlertSound 16 250
+	DisableDropSound
+	MinimapIcon 1 White Square
+	PlayEffect White
+# Tier 3
+Show
+	Class "Maps"
+	MapTier = 3
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 255 255
+	SetFontSize	40
+	PlayAlertSound 16 250
+	DisableDropSound
+	MinimapIcon 1 White Square
+	PlayEffect White
+# Tier 4
+Show
+	Class "Maps"
+	MapTier = 4
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 255 255
+	SetFontSize	40
+	PlayAlertSound 16 250
+	DisableDropSound
+	MinimapIcon 1 White Square
+	PlayEffect White
+# Tier 5
+Show
+	Class "Maps"
+	MapTier = 5
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 255 255
+	SetFontSize	40
+	PlayAlertSound 16 250
+	DisableDropSound
+	MinimapIcon 1 White Square  
+	PlayEffect White
+# Tier 6
+Show
+	Class "Maps"
+	MapTier = 6
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 210 170 50
+	SetFontSize	40
+	PlayAlertSound 3 250
+	DisableDropSound
+	MinimapIcon 1 Yellow Square  
+	PlayEffect Yellow
+# Tier 7
+Show
+	Class "Maps"
+	MapTier = 7
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 210 170 50
+	SetFontSize	40
+	PlayAlertSound 3 250
+	DisableDropSound
+	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow
+# Tier 8
+Show
+	Class "Maps"
+	MapTier = 8
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 210 170 50
+	SetFontSize	40
+	PlayAlertSound 3 250
+	DisableDropSound
+	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow
+# Tier 9
+Show
+	Class "Maps"
+	MapTier = 9
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 210 170 50
+	SetFontSize	40
+	PlayAlertSound 3 250
+	DisableDropSound
+	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow
+# Tier 10
+Show
+	Class "Maps"
+	MapTier = 10
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 210 170 50
+	SetFontSize	40
+	PlayAlertSound 3 250
+	DisableDropSound
+	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow
+# Tier 11
+Show
+	Class "Maps"
+	MapTier = 11
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 70 70 
+	SetFontSize	41
+	PlayAlertSound 6 250
+	DisableDropSound
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+# Tier 12
+Show
+	Class "Maps"
+	MapTier = 12
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 70 70 
+	SetFontSize	42
+	PlayAlertSound 6 250
+	DisableDropSound
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+# Tier 13
+Show
+	Class "Maps"
+	MapTier = 13
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 70 70 
+	SetFontSize	43
+	PlayAlertSound 6 250
+	DisableDropSound
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+# Tier 14
+Show
+	Class "Maps"
+	MapTier = 14
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 70 70 
+	SetFontSize	44
+	PlayAlertSound 6 300
+	DisableDropSound
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+# Tier 15
+Show
+	Class "Maps"
+	MapTier = 15
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 70 70 
+	SetFontSize	45
+	PlayAlertSound 6 300
+	DisableDropSound
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+# Tier 16 
+Show
+	Class "Maps"
+	MapTier = 16
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 10 150 70
+	SetFontSize	45
+	PlayAlertSound 6 300
+	DisableDropSound
+	MinimapIcon 0 Green Square
+	PlayEffect Green
+# Shaper Fragments
+Show
+    Class "Map Fragments"
+	BaseType "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra"
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 0 0
+	SetTextColor 0 0 0
+    SetFontSize 40
+    MinimapIcon 1 Red Square  	
+# Atziri Fragments
+Show
+    Class "Map Fragments"
+	BaseType "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Dawn" "Sacrifice at Noon"
+	SetBackgroundColor 254 191 128
+	SetTextColor 124 81 50
+	SetBorderColor 124 81 50
+    SetFontSize 42
+    MinimapIcon 1 Brown Square  	
+# Ueber Atziri Fragments
+Show
+    Class "Map Fragments"
+	BaseType "Mortal Grief" "Mortal Rage" "Mortal Hope" "Mortal Ignorance"
+	SetTextColor 0 191 0
+	SetBorderColor 0 191 0
+    SetFontSize 42
+    MinimapIcon 1 Green Square  
+# Prophecy Fragments
+Show
+    Class "Map Fragments"
+	BaseType "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key"
+	SetTextColor 153 0 0
+	SetBorderColor 153 0 0
+	SetBackgroundColor 30 30 30  
+    SetFontSize 40
+# Divine Vessel
+Show
+	BaseType "Divine Vessel"
+    SetTextColor 64 53 83
+    SetBackgroundColor 199 72 34
+    SetBorderColor 64 53 83
+    SetFontSize 42
+    PlayAlertSound 15 300
+    DisableDropSound
+	MinimapIcon 1 Blue Square  
+	PlayEffect Blue
+# Timeworn Reliquary Key
+Show
+	BaseType "Timeworn Reliquary Key"
+	SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255 255
+	SetFontSize 45
+	PlayAlertSound 7 300
+	DisableDropSound
+	PlayEffect Red
+    MinimapIcon 1 Red Hexagon
+# Stone of Passage
+Show
+	BaseType "Stone of Passage"
+	SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255 255
+	SetFontSize 45
+	PlayAlertSound 2 300
+	PlayEffect Red
+	MinimapIcon 0 Red Hexagon
+
