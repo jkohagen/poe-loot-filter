@@ -1,0 +1,27 @@
+#------------------------------------
+#   High Value
+#------------------------------------
+Show
+	Rarity = Unique
+	BaseType "Glorious Plate" "Occultist's Vestment" "Sapphire Flask" "Rawhide Boots"
+	SetTextColor 197 151 0 255
+    SetBorderColor 197 151 0 255
+    SetBackgroundColor 255 255 255 255
+	SetFontSize 45
+    PlayAlertSound 8 300
+    DisableDropSound
+	PlayEffect Brown
+	MinimapIcon 1 Brown Star
+
+	
+#------------------------------------
+#   Regular
+#------------------------------------
+Show
+	Rarity = Unique
+	SetBackgroundColor 175 96 37
+    SetBorderColor 0 0 0
+    SetTextColor 255 255 255
+    SetFontSize 38
+	PlayEffect Brown
+	MinimapIcon 1 Brown Star

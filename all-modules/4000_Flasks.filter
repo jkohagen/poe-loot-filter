@@ -1,0 +1,258 @@
+# ===============================================================================================================
+# Flasks
+# ===============================================================================================================
+
+#------------------------------------
+#   Leveling
+#------------------------------------
+Show
+	Class "Mana Flask"
+	Rarity = Magic
+	ItemLevel <= 22
+	DropLevel <= 18
+	SetFontSize 32
+	SetBackgroundColor 128 179 254
+	SetTextColor 42 42 42  
+	SetBorderColor 42 42 42 150
+	SetFontSize 30
+Show
+	Class "Mana Flask"
+	Rarity = Magic
+	ItemLevel <= 40 
+	DropLevel >= 19
+	SetFontSize 32
+	SetBackgroundColor 128 179 254
+	SetTextColor 42 42 42  
+	SetBorderColor 42 42 42 150
+	SetFontSize 30
+Show
+	Class "Mana Flask"
+	Rarity = Magic
+	ItemLevel <= 52
+	DropLevel >= 32
+	SetBackgroundColor 128 179 254
+	SetTextColor 42 42 42  
+	SetBorderColor 42 42 42 150
+	SetFontSize 30
+Show
+	Class "Mana Flask"
+	Rarity = Magic
+	ItemLevel <= 62
+	DropLevel >= 42
+	SetBackgroundColor 128 179 254
+	SetTextColor 42 42 42  
+	SetBorderColor 42 42 42 150
+	SetFontSize 30
+Show
+	Class "Mana Flask"
+	Rarity = Magic
+	ItemLevel <= 70
+	DropLevel >= 60
+	SetBackgroundColor 128 179 254
+	SetTextColor 42 42 42  
+	SetBorderColor 42 42 42 150
+	SetFontSize 30
+Show
+	Class "Life Flask"
+	Rarity = Magic
+	ItemLevel <= 22
+	DropLevel <= 18
+	SetFontSize 32
+	SetBackgroundColor 150 0 0 
+	SetTextColor 42 42 42  
+	SetBorderColor 42 42 42 150
+	SetFontSize 30
+Show
+	Class "Life Flask"
+	Rarity = Magic
+	ItemLevel <= 40 
+	DropLevel >= 18
+	SetFontSize 32
+	SetBackgroundColor 150 0 0 
+	SetTextColor 42 42 42  
+	SetBorderColor 42 42 42 150
+	SetFontSize 30
+Show
+	Class "Life Flask"
+	Rarity = Magic
+	ItemLevel <= 52
+	DropLevel >= 32
+	SetBackgroundColor 150 0 0 
+	SetTextColor 42 42 42  
+	SetBorderColor 42 42 42 150
+	SetFontSize 30
+Show
+	Class "Life Flask"
+	Rarity = Magic
+	ItemLevel <= 62
+	DropLevel >= 42
+	SetBackgroundColor 150 0 0 
+	SetTextColor 42 42 42  
+	SetBorderColor 42 42 42 150
+	SetFontSize 30
+Show
+	Class "Life Flask"
+	Rarity = Magic
+	ItemLevel <= 70
+	DropLevel >= 60
+	SetBackgroundColor 150 0 0 
+	SetTextColor 42 42 42  
+	SetBorderColor 42 42 42 150
+	SetFontSize 30
+Show
+	Class "Mana Flask"
+	Rarity = Normal
+	ItemLevel <= 22
+	DropLevel <= 18
+	SetFontSize 32
+	SetBackgroundColor 128 179 254 180
+	SetTextColor 255 255 255 
+	SetBorderColor 255 255 255 150
+	SetFontSize 30
+Show
+	Class "Mana Flask"
+	Rarity = Normal
+	ItemLevel <= 40 
+	DropLevel >= 18
+	SetFontSize 32
+	SetBackgroundColor 128 179 254 180
+	SetTextColor 255 255 255 
+	SetBorderColor 255 255 255 150
+	SetFontSize 30
+Show
+	Class "Mana Flask"
+	Rarity = Normal
+	ItemLevel <= 52
+	DropLevel >= 32
+	SetBackgroundColor 128 179 254 180
+	SetTextColor 255 255 255 
+	SetBorderColor 255 255 255 150
+	SetFontSize 30
+Show
+	Class "Mana Flask"
+	Rarity = Normal
+	ItemLevel <= 62
+	DropLevel >= 42
+	SetBackgroundColor 128 179 254 180
+	SetTextColor 255 255 255 
+	SetBorderColor 255 255 255 150
+	SetFontSize 30
+Show
+	Class "Mana Flask"
+	Rarity = Normal
+	ItemLevel <= 70
+	DropLevel >= 60
+	SetBackgroundColor 128 179 254 180
+	SetTextColor 255 255 255 
+	SetBorderColor 255 255 255 150
+	SetFontSize 30
+Show
+	Class "Life Flask"
+	Rarity = Normal
+	ItemLevel <= 22
+	DropLevel <= 18
+	SetFontSize 32
+	SetBackgroundColor 150 0 0
+	SetTextColor 255 255 255 	
+	SetBorderColor 255 255 255 150
+	SetFontSize 30
+Show
+	Class "Life Flask"
+	Rarity = Normal
+	ItemLevel <= 40 
+	DropLevel >= 18
+	SetFontSize 32
+	SetBackgroundColor 150 0 0
+	SetTextColor 255 255 255 
+	SetBorderColor 255 255 255 150
+	SetFontSize 30
+Show
+	Class "Life Flask"
+	Rarity = Normal
+	ItemLevel <= 52
+	DropLevel >= 32
+	SetBackgroundColor 150 0 0 
+	SetTextColor 255 255 255  
+	SetBorderColor 42 42 42 150
+	SetFontSize 30
+Show
+	Class "Life Flask"
+	Rarity = Normal
+	ItemLevel <= 62
+	DropLevel >= 42
+	SetBackgroundColor 150 0 0 
+	SetTextColor 255 255 255 
+	SetBorderColor 42 42 42 150
+	SetFontSize 30
+Show
+	Class "Life Flask"
+	Rarity = Normal
+	ItemLevel <= 70
+	DropLevel >= 60
+	SetBackgroundColor 150 0 0
+	SetTextColor 255 255 255 
+	SetBorderColor 255 255 255 150
+	SetFontSize 30
+
+#------------------------------------
+#   [0302] Regular
+#------------------------------------
+Show
+    Class "Utility Flasks"
+    BaseType "Quicksilver Flask"
+	ItemLevel <= 4
+    SetBackgroundColor 50 255 255
+    SetBorderColor 250 0 0
+    SetTextColor 250 0 0
+    SetFontSize 30
+Show
+	Class "Flask"
+    Rarity = Unique
+    SetBackgroundColor 175 96 37
+    SetBorderColor 0 0 0
+    SetTextColor 255 255 255
+    SetFontSize 38
+	PlayEffect Brown
+	MinimapIcon 1 Brown Star
+Hide
+	Class "Utility Flasks"
+	Rarity <= Rare
+	ItemLevel >= 78
+    SetBackgroundColor 50 255 255
+    SetBorderColor 0 0 0
+    SetTextColor 0 0 0
+    SetFontSize 28
+Show
+	Class "Utility Flasks"
+    SetBackgroundColor 50 255 255
+    SetBorderColor 0 0 0
+    SetTextColor 0 0 0
+    SetFontSize 30
+Show
+	Class "Flask"
+	Quality >= 15
+	SetBorderColor 255 64 64
+	SetFontSize 30
+Show
+	Class "Flask"
+	Quality >= 10
+	SetBorderColor 255 215 0
+	SetFontSize 30
+Hide
+	Class "Mana Flask" 
+	SetBackgroundColor 128 179 254 180
+	SetTextColor 255 255 255 
+	SetBorderColor 255 255 255 150
+	SetFontSize 28
+Hide
+	Class "Life Flasks"
+	SetBackgroundColor 150 0 0 
+	SetTextColor 255 255 255  
+	SetBorderColor 255 255 255 150
+	SetFontSize 28
+Hide
+	Class "Hybrid Flasks"
+	SetBackgroundColor 77 23 102 180
+	SetTextColor 255 255 255 
+	SetBorderColor 255 255 255 150
+	SetFontSize 28

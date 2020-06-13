@@ -1,0 +1,34 @@
+# Tabu
+Show
+    Rarity = Unique
+	BaseType "Simple Robe"
+    LinkedSockets = 6
+    SocketGroup WWWWWW
+    SetBackgroundColor 175 96 37  
+    SetBorderColor 0 0 0
+    SetTextColor 255 255 255
+    SetFontSize 40
+    PlayEffect Brown 
+	MinimapIcon 0 Brown Star
+# 6-link
+Show
+	LinkedSockets = 6
+    SetBackgroundColor 255 70 0
+    SetBorderColor 0 0 0
+    SetTextColor 0 0 0
+	SetFontSize 45
+    PlayAlertSound 7 300
+    DisableDropSound
+    PlayEffect Orange 
+	MinimapIcon 0 Orange Hexagon
+# 6-socket
+Show
+    Rarity <= Rare
+	Sockets = 6
+	SetTextColor 0 0 0
+	SetBorderColor 60 60 60
+	SetBackgroundColor  200 200 200
+	SetFontSize 42
+    PlayAlertSound 1 300
+    DisableDropSound
+    MinimapIcon 1 Brown Triangle

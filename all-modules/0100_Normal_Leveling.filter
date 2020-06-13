@@ -1,0 +1,61 @@
+# magic boots for movementspeed
+Show
+    Class "Boots"
+	Rarity = Magic
+    AreaLevel <= 40
+	SetBorderColor 255 127 237
+    SetTextColor 255 127 237
+	SetFontSize 35
+
+# 2-Link
+Show
+	Rarity <= Magic
+	LinkedSockets = 2
+	ItemLevel <= 8
+	SetFontSize 34
+
+# 3-Link
+Show
+	LinkedSockets = 3
+	ItemLevel <= 35
+	SetBorderColor 255 255 255
+	SetBackgroundColor 0 0 0
+	SetFontSize 34
+Show
+	BaseType "Coral Amulet"
+	Rarity = Normal
+	SetBorderColor 100 0 0
+	ItemLevel <= 15
+	SetFontSize 35
+
+Show
+	BaseType "Iron Ring" "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Rustic Sash" "Leather Belt"
+	Rarity = Normal
+	SetBorderColor 100 0 0
+	ItemLevel <= 33
+	SetFontSize 35
+
+Show
+	BaseType "Coral Amulet"
+	Rarity = Magic
+    SetTextColor 224 198 125
+    SetBorderColor 224 198 125
+	SetBackgroundColor 42 42 42
+	ItemLevel <= 12
+	SetFontSize 35
+Show
+	BaseType "Iron Ring" "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Rustic Sash" "Leather Belt"
+	Rarity = Magic
+    SetTextColor 224 198 125
+    SetBorderColor 224 198 125
+	SetBackgroundColor 42 42 42
+	ItemLevel <= 66
+	SetFontSize 32
+
+Show
+	Class "Boots" "Rings" "Amulets" "Belts"
+	Rarity = Rare
+	ItemLevel <= 60
+	SetTextColor 230 230 100
+    SetBackgroundColor 30 90 45
+    SetFontSize 35

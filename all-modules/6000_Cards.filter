@@ -1,0 +1,120 @@
+Show 
+	BaseType "Humility"
+	AreaLevel <= 62
+	SetTextColor 197 151 0 255
+    SetBorderColor 197 151 0 255
+    SetBackgroundColor 255 255 255 255
+	SetFontSize 45
+	MinimapIcon 0 Yellow Hexagon
+	PlayAlertSound 8 300
+	PlayEffect Brown 
+	DisableDropSound
+
+# The Carrion Crow
+Hide
+	Class "Divination Card"
+	BaseType "The Carrion Crow"
+	SetTextColor 14 186 255  
+	SetBorderColor 14 186 255  
+	SetFontSize 28
+    DisableDropSound
+
+#------------------------------------
+#   High Value
+#------------------------------------
+Show 
+	BaseType "The Aesthete"
+	SetTextColor 197 151 0 255
+    SetBorderColor 197 151 0 255
+    SetBackgroundColor 255 255 255 255
+	SetFontSize 45
+	MinimapIcon 0 Yellow Hexagon
+	PlayEffect Brown
+
+#------------------------------------
+#   High Value
+#------------------------------------
+Show 
+	BaseType "The Oath" "Imperial Legacy" "The Offering" "The King's Heart" "Pride Before the Fall" "House of Mirrors" "Abandoned Wealth" "The World Eater" "The Doctor"
+	SetTextColor 197 151 0 255
+    SetBorderColor 197 151 0 255
+    SetBackgroundColor 255 255 255 255
+	SetFontSize 45
+	MinimapIcon 0 Yellow Hexagon
+	PlayAlertSound 8 300
+	PlayEffect Brown 
+	DisableDropSound
+
+#------------------------------------
+#   Regular
+#------------------------------------
+# Tier 4 (special case)
+Show
+	Class "Divination Card"
+	BaseType "The Wolf's Shadow"
+	SetTextColor 14 186 255  
+	SetBorderColor 14 186 255  
+	SetBackgroundColor 0 0 50
+	SetFontSize 38
+    PlayAlertSound 2 300
+	MinimapIcon 1 Blue Diamond
+	PlayEffect Blue
+    DisableDropSound
+# Tier 1
+Show
+	Class "Divination Card"
+	BaseType "Abandoned Wealth" "Heterochromia" "House of Mirrors" "Hunter's Reward" "Immortal Resolve" "Mawr Blaidd" "Polymath" "Pride Before the Fall" "Spark and the Flame" "The Celestial Justicar" "The Celestial Stone" "The Doctor" "The Dragon's Heart" "The Fiend" "The Immortal" "The Iron Bard" "The King's Heart" "The Last One Standing" "The Master" "The Mayor" "The Saint's Treasure" "The Samurai's Eye" "The Spark and the Flame" "The Wind" "The Wolven King's Bite" "The World Eater" "Wealth and Power" "The Sacrifice" "A Dab of Ink" "The Nurse" "The Life Thief"
+	SetTextColor 14 186 255  
+	SetBorderColor 14 186 255  
+	SetBackgroundColor 0 0 150
+	SetFontSize 45
+    PlayAlertSound 2 300
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue
+    DisableDropSound
+# Tier 2
+Show
+	Class "Divination Card"
+	BaseType "Chaotic Disposition" "Last Hope" "Perfection" "Saint's Treasure" "The Artist" "The Brittle Emperor" "The Cartographer" "The Dapper Prodigy" "The Dreamer" "The Enlightened" "The Ethereal" "The Hoarder" "The Hunger" "The Professor" "The Queen" "The Risk" "The Sephirot" "The Undaunted" "The Undisputed" "The Valkyrie" "The Vast" "The Void" "The Wolf" "The Master Artisan"
+	SetTextColor 14 186 255  
+	SetBorderColor 14 186 255  
+	SetBackgroundColor 0 0 100
+	SetFontSize 40
+    PlayAlertSound 2 300
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue
+    DisableDropSound
+# Tier 3
+Show
+	Class "Divination Card"
+	BaseType "Blessing of God" "Boundless Realms" "Bowyer's Dream" "Coveted Possession" "Earth Drinker" "Emperor of Purity" "Gemcutter's Promise" "Harmony of Souls" "Hope" "Jack in the Box" "Left to Fate" "Lingering Remnants" "Lost Worlds" "Lucky Connections" "Lucky Deck" "Merciless Armament" "No Traces" "Rebirth" "Scholar of the Seas" "Shard of Fate" "Standoff" "The Admirer" "The Aesthete" "The Beast" "The Body" "The Breach" "The Chains that Bind" "The Cursed King" "The Dark Mage" "The Darkest Dream" "The Dragon" "The Dreamland" "The Encroaching Darkness" "The Fletcher" "The Formless Sea" "The Forsaken" "The Hale Heart" "The Insatiable" "The Inventor" "The Jester" "The Jeweller's Boon" "The Obscured" "The Offering" "The Penitent" "The Poet" "The Polymath" "The Porcupine" "The Realm" "The Road to Power" "The Soul" "The Standoff" "The Surveyor" "The Survivalist" "The Sword King's Salute" "The Thaumaturgist" "The Throne" "The Trial" "The Tyrant" "The Union" "The Valley of Steel Boxes" "The Warlord" "The Wrath" "The Wretched" "Time-Lost Relic" "Valley of Steel Boxes" "Vinia's Token" "Wolven King's Bite"
+	SetTextColor 14 186 255  
+	SetBorderColor 14 186 255  
+	SetBackgroundColor 0 0 50
+	SetFontSize 38
+    PlayAlertSound 2 300
+	MinimapIcon 1 Blue Diamond
+	PlayEffect Blue
+    DisableDropSound
+# Tier 4
+Show 
+	Class "Divination Card"
+	BaseType "A Mother's Parting Gift" "Anarchy's Price" "Birth of the Three" "Carrion Crow" "Cartographer's Delight" "Death" "Dying Anguish" "Hermit" "King's Blade" "Lantador's Lost Love" "Light and Truth" "Metalsmith's Gift" "Might is Right" "Other Cheek" "Prosperity" "Rain of Chaos" "Rain Tempter" "Struck by Lightning" "The Blazing Fire" "The Coming Storm" "The Conduit" "The Eye of the Dragon" "The Feast" "The Incantation" "The Inoculated" "The Lich" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Rabid Rhoa" "The Ruthless Ceinture" "The Scarred Meadow" "The Scholar" "The Sigil" "The Siren" "The Surgeon" "The Tower" "The Twins" "The Warden" "The Wolverine" "Thunderous Skies" "Volatile Power"
+	SetTextColor 14 186 255  
+	SetBorderColor 14 186 255  
+	SetBackgroundColor 0 0 50
+	SetFontSize 36
+    PlayAlertSound 2 300
+	MinimapIcon 1 Blue Diamond
+	PlayEffect Blue
+    DisableDropSound
+# Remaining
+Show
+	Class "Divination Card"
+	SetTextColor 14 186 255  
+	SetBorderColor 14 186 255  
+	SetFontSize 36
+    PlayAlertSound 2 300
+	MinimapIcon 0 Blue Diamond
+	PlayEffect Blue
+    DisableDropSound

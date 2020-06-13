@@ -1,0 +1,258 @@
+# Tier 1
+Show
+	Class "Maps"
+	MapTier = 1
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 255 255
+	SetFontSize	40
+	PlayAlertSound 16 250
+	DisableDropSound
+	MinimapIcon 1 White Square
+	PlayEffect White
+# Tier 2
+Show
+	Class "Maps"
+	MapTier = 2
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 255 255
+	SetFontSize	40
+	PlayAlertSound 16 250
+	DisableDropSound
+	MinimapIcon 1 White Square
+	PlayEffect White
+# Tier 3
+Show
+	Class "Maps"
+	MapTier = 3
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 255 255
+	SetFontSize	40
+	PlayAlertSound 16 250
+	DisableDropSound
+	MinimapIcon 1 White Square
+	PlayEffect White
+# Tier 4
+Show
+	Class "Maps"
+	MapTier = 4
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 255 255
+	SetFontSize	40
+	PlayAlertSound 16 250
+	DisableDropSound
+	MinimapIcon 1 White Square
+	PlayEffect White
+# Tier 5
+Show
+	Class "Maps"
+	MapTier = 5
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 255 255
+	SetFontSize	40
+	PlayAlertSound 16 250
+	DisableDropSound
+	MinimapIcon 1 White Square  
+	PlayEffect White
+# Tier 6
+Show
+	Class "Maps"
+	MapTier = 6
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 210 170 50
+	SetFontSize	40
+	PlayAlertSound 3 250
+	DisableDropSound
+	MinimapIcon 1 Yellow Square  
+	PlayEffect Yellow
+# Tier 7
+Show
+	Class "Maps"
+	MapTier = 7
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 210 170 50
+	SetFontSize	40
+	PlayAlertSound 3 250
+	DisableDropSound
+	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow
+# Tier 8
+Show
+	Class "Maps"
+	MapTier = 8
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 210 170 50
+	SetFontSize	40
+	PlayAlertSound 3 250
+	DisableDropSound
+	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow
+# Tier 9
+Show
+	Class "Maps"
+	MapTier = 9
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 210 170 50
+	SetFontSize	40
+	PlayAlertSound 3 250
+	DisableDropSound
+	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow
+# Tier 10
+Show
+	Class "Maps"
+	MapTier = 10
+    SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 210 170 50
+	SetFontSize	40
+	PlayAlertSound 3 250
+	DisableDropSound
+	MinimapIcon 1 Yellow Square
+	PlayEffect Yellow
+# Tier 11
+Show
+	Class "Maps"
+	MapTier = 11
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 70 70 
+	SetFontSize	41
+	PlayAlertSound 6 250
+	DisableDropSound
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+# Tier 12
+Show
+	Class "Maps"
+	MapTier = 12
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 70 70 
+	SetFontSize	42
+	PlayAlertSound 6 250
+	DisableDropSound
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+# Tier 13
+Show
+	Class "Maps"
+	MapTier = 13
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 70 70 
+	SetFontSize	43
+	PlayAlertSound 6 250
+	DisableDropSound
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+# Tier 14
+Show
+	Class "Maps"
+	MapTier = 14
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 70 70 
+	SetFontSize	44
+	PlayAlertSound 6 300
+	DisableDropSound
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+# Tier 15
+Show
+	Class "Maps"
+	MapTier = 15
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 70 70 
+	SetFontSize	45
+	PlayAlertSound 6 300
+	DisableDropSound
+	MinimapIcon 0 Red Square
+	PlayEffect Red
+# Tier 16 
+Show
+	Class "Maps"
+	MapTier = 16
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 10 150 70
+	SetFontSize	45
+	PlayAlertSound 6 300
+	DisableDropSound
+	MinimapIcon 0 Green Square
+	PlayEffect Green
+# Shaper Fragments
+Show
+    Class "Map Fragments"
+	BaseType "Fragment of the Phoenix" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Hydra"
+	SetBorderColor 0 0 0
+	SetBackgroundColor 255 0 0
+	SetTextColor 0 0 0
+    SetFontSize 40
+    MinimapIcon 1 Red Square  	
+# Atziri Fragments
+Show
+    Class "Map Fragments"
+	BaseType "Sacrifice at Dusk" "Sacrifice at Midnight" "Sacrifice at Dawn" "Sacrifice at Noon"
+	SetBackgroundColor 254 191 128
+	SetTextColor 124 81 50
+	SetBorderColor 124 81 50
+    SetFontSize 42
+    MinimapIcon 1 Brown Square  	
+# Ueber Atziri Fragments
+Show
+    Class "Map Fragments"
+	BaseType "Mortal Grief" "Mortal Rage" "Mortal Hope" "Mortal Ignorance"
+	SetTextColor 0 191 0
+	SetBorderColor 0 191 0
+    SetFontSize 42
+    MinimapIcon 1 Green Square  
+# Prophecy Fragments
+Show
+    Class "Map Fragments"
+	BaseType "Eber's Key" "Yriel's Key" "Inya's Key" "Volkuur's Key"
+	SetTextColor 153 0 0
+	SetBorderColor 153 0 0
+	SetBackgroundColor 30 30 30  
+    SetFontSize 40
+# Divine Vessel
+Show
+	BaseType "Divine Vessel"
+    SetTextColor 64 53 83
+    SetBackgroundColor 199 72 34
+    SetBorderColor 64 53 83
+    SetFontSize 42
+    PlayAlertSound 15 300
+    DisableDropSound
+	MinimapIcon 1 Blue Square  
+	PlayEffect Blue
+# Timeworn Reliquary Key
+Show
+	BaseType "Timeworn Reliquary Key"
+	SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255 255
+	SetFontSize 45
+	PlayAlertSound 7 300
+	DisableDropSound
+	PlayEffect Red
+    MinimapIcon 1 Red Hexagon
+# Stone of Passage
+Show
+	BaseType "Stone of Passage"
+	SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255 255
+	SetFontSize 45
+	PlayAlertSound 2 300
+	PlayEffect Red
+	MinimapIcon 0 Red Hexagon

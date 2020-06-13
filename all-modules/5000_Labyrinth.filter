@@ -1,0 +1,27 @@
+Show
+	BaseType "Silver Key" 
+	SetTextColor 192 192 192
+	SetBorderColor 192 192 192
+	SetFontSize 45
+Show
+	BaseType "Golden Key" 
+	SetTextColor 218 165 32
+	SetBorderColor 218 165 32
+	SetFontSize 45
+Show
+	BaseType "Treasure Key"
+	SetTextColor 192 128 254  
+	SetBorderColor 192 128 254  
+	SetFontSize 45
+Show 
+	BaseType "Offering to the Goddess"
+	SetTextColor 255 99 71
+	SetBorderColor 255 99 71
+	SetBackgroundColor 42 42 42
+    SetFontSize 40
+Show
+	Class "Labyrinth Trinket"
+	SetTextColor 0 0 0
+	SetBorderColor 0 0 0
+	SetBackgroundColor 170 158 120
+	SetFontSize 40

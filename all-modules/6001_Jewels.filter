@@ -1,0 +1,58 @@
+Show
+	Class "Jewel"
+	BaseType "Jewel"
+	Rarity = Unique
+    SetBorderColor 0 0 0
+    SetTextColor 255 255 255
+	SetBackgroundColor 175 96 37
+    SetFontSize 38
+	PlayEffect Brown
+	MinimapIcon 0 Brown Kite
+Show
+	Class "Jewel"
+	BaseType "Jewel"
+	SetBackgroundColor 127 127 127
+	SetFontSize 36
+	Continue
+Show
+	Class "Jewel"
+	BaseType "Jewel"
+	Rarity = Rare
+	SetTextColor 255 255 119
+	SetBorderColor 255 255 119
+	MinimapIcon 1 Yellow Kite
+	Continue
+Show
+	Class "Jewel"
+	BaseType "Jewel"
+	Rarity <= Magic
+	SetTextColor 0 0 0  
+	SetBorderColor 0 0 0
+	MinimapIcon 1 Blue Kite
+	Continue
+Show
+	Class "Jewel"
+	BaseType "Cluster Jewel"
+	SetBackgroundColor 0 75 130
+	PlayAlertSound 10 300
+	DisableDropSound
+	Continue
+Show
+	Class "Jewel"
+	BaseType "Small Cluster Jewel" "Medium Cluster Jewel"
+	SetBackgroundColor 0 75 130
+	SetFontSize 38
+Show
+	Class "Jewel"
+	BaseType "Large Cluster Jewel"
+	SetBackgroundColor 0 75 130
+	SetFontSize 40
+Show
+	Class "Abyss Jewel"
+    SetBackgroundColor 90 46 128
+    SetFontSize 40
+    PlayAlertSound 10 300
+    DisableDropSound
+Show
+	Class "Jewel"
+	BaseType "Jewel"

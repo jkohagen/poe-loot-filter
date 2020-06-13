@@ -1,0 +1,11 @@
+Show 
+	Rarity = Rare
+    SetFontSize 22
+
+Show 
+	Rarity = Magic
+    ItemLevel <= 15
+
+Hide
+    SetFontSize 15
+    DisableDropSound

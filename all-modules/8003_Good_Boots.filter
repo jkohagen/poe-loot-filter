@@ -1,0 +1,17 @@
+Show
+    BaseType "Titan Greaves" "Vaal Greaves" "Slink Boots" "Stealth Boots" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Two-Toned Boots" "Murder Boots"
+    ItemLevel >= 84 
+    Rarity <= Magic
+    SetBackgroundColor 255 20 147 100
+	SetBorderColor 0 0 0
+	SetTextColor 255 20 147
+Show
+    BaseType "Titan Greaves" "Vaal Greaves" "Slink Boots" "Stealth Boots" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Two-Toned Boots" "Murder Boots"
+    ItemLevel >= 84
+    Rarity <= Rare
+    SetBorderColor 255 20 147
+ Show
+    BaseType "Titan Greaves" "Vaal Greaves" "Slink Boots" "Stealth Boots" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Two-Toned Boots" "Murder Boots"
+	SetTextColor 230 230 100
+	SetBackgroundColor 30 90 45
+	SetBorderColor 255 255 0

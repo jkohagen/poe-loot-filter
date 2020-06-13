@@ -1,0 +1,21 @@
+Show
+    BaseType "Marble Amulet" "Blue Pearl Amulet" "Jet Amulet" "Ruby Amulet"
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetBackgroundColor 254 128 222
+	SetFontSize 42
+	PlayEffect Pink 
+	MinimapIcon 0 Pink Cross 
+Show
+    Class "Amulets"
+	ItemLevel >= 84
+	Rarity <= Magic
+	SetBackgroundColor 255 20 147 100
+	SetBorderColor 0 0 0
+	SetTextColor 255 20 147
+	SetFontSize 28
+Show	
+    Class "Amulets"	
+	ItemLevel >= 84
+	Rarity = Rare
+    SetBorderColor 255 20 147

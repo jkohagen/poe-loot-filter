@@ -1,0 +1,86 @@
+# only dropable (everythere)
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Enlighten Support" "Empower Support" "Enhance Support" "Detonate Mines" "Portal" "Added Chaos Damage Support"
+	SetBackgroundColor 255 255 255
+	SetBorderColor 27 162 155
+    PlayAlertSound 2 300
+	DisableDropSound
+	SetFontSize 35
+
+# only dropable (awakener)
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Awakened"
+	SetBackgroundColor 255 255 255
+	SetBorderColor 27 162 155
+    PlayAlertSound 2 300
+    DisableDropSound
+	SetFontSize 35
+
+## set quality boder
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	Quality >= 1
+	SetBorderColor 127 255 0
+    SetFontSize 35
+	Continue
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	Quality >= 10
+	SetBorderColor 255 215 0
+	Continue
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	Quality >= 15
+	SetBorderColor 255 64 64
+	Continue
+
+# set font size
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	GemLevel >= 10
+    SetFontSize 36
+    Continue
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	GemLevel >= 15
+	SetFontSize 40
+    Continue
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	GemLevel >= 18
+	SetFontSize 40
+    Continue
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	GemLevel >= 19
+	SetFontSize 42
+    Continue
+Show
+	Class "Active Skill Gems" "Support Skill Gems"
+	GemLevel >= 20
+	SetFontSize 45
+    Continue
+
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+	Corrupted True
+	SetBackgroundColor 210 0 0 150
+
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+	BaseType "Vaal Breach" 
+	SetTextColor 213 162 155
+	SetBorderColor 171 100 255
+	SetBackgroundColor 75 55 82 180
+	SetFontSize 45
+
+Show
+    Class "Active Skill Gems" "Support Skill Gems"
+    AreaLevel <= 66
+
+Hide
+	Class "Active Skill Gems" "Support Skill Gems"
+    DisableDropSound
+	AreaLevel > 66
