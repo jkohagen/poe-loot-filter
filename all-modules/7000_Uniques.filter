@@ -1,6 +1,3 @@
-#------------------------------------
-#   High Value
-#------------------------------------
 Show
 	Rarity = Unique
 	BaseType "Glorious Plate" "Occultist's Vestment" "Sapphire Flask" "Rawhide Boots"
@@ -11,12 +8,7 @@ Show
     PlayAlertSound 8 300
     DisableDropSound
 	PlayEffect Brown
-	MinimapIcon 1 Brown Star
-
-	
-#------------------------------------
-#   Regular
-#------------------------------------
+	MinimapIcon 0 Brown Star
 Show
 	Rarity = Unique
 	SetBackgroundColor 175 96 37
