@@ -8,11 +8,13 @@ Show
 Show
     BaseType "Titan Greaves" "Vaal Greaves" "Slink Boots" "Stealth Boots" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Two-Toned Boots" "Murder Boots"
     ItemLevel >= 84
-    Rarity <= Rare
+    Rarity = Rare
     SetBorderColor 255 20 147
+    MinimapIcon 1 Purple UpsideDownHouse
  Show
     BaseType "Titan Greaves" "Vaal Greaves" "Slink Boots" "Stealth Boots" "Sorcerer Boots" "Two-Toned Boots" "Dragonscale Boots" "Two-Toned Boots" "Crusader Boots" "Two-Toned Boots" "Murder Boots"
 	Rarity = Rare
 	SetTextColor 230 230 100
 	SetBackgroundColor 30 90 45
 	SetBorderColor 255 255 0
+    MinimapIcon 1 Green UpsideDownHouse

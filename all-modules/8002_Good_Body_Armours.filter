@@ -8,11 +8,13 @@ Show
 Show
     BaseType "Astral Plate" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Vaal Regalia" "Saintly Chainmail" "Carnal Armour" "Sadist Garb"
     ItemLevel >= 84
-    Rarity <= Rare
+    Rarity = Rare
     SetBorderColor 255 20 147
+    MinimapIcon 1 Purple UpsideDownHouse
  Show
     BaseType "Astral Plate" "Glorious Plate" "Gladiator Plate" "Assassin's Garb" "Zodiac Leather" "Vaal Regalia" "Saintly Chainmail" "Carnal Armour" "Sadist Garb"
 	Rarity = Rare
 	SetTextColor 230 230 100
 	SetBackgroundColor 30 90 45
 	SetBorderColor 255 255 0
+    MinimapIcon 1 Green UpsideDownHouse

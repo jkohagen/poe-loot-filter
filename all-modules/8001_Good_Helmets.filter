@@ -8,11 +8,13 @@ Show
 Show
     BaseType "Eternal Burgonet" "Royal Burgonet" "Ezomyte Burgonet" "Lion Pelt" "Sinner Tricorne" "Silken Hood" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Deicide Mask"
     ItemLevel >= 84
-    Rarity <= Rare
+    Rarity = Rare
     SetBorderColor 255 20 147
+    MinimapIcon 1 Purple UpsideDownHouse
  Show
     BaseType "Eternal Burgonet" "Royal Burgonet" "Ezomyte Burgonet" "Lion Pelt" "Sinner Tricorne" "Silken Hood" "Hubris Circlet" "Pig-Faced Bascinet" "Nightmare Bascinet" "Deicide Mask"
 	Rarity = Rare
 	SetTextColor 230 230 100
 	SetBackgroundColor 30 90 45
 	SetBorderColor 255 255 0
+    MinimapIcon 1 Green UpsideDownHouse

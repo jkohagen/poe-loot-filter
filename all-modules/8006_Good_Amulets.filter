@@ -5,7 +5,9 @@ Show
     SetBackgroundColor 254 128 222
 	SetFontSize 42
 	PlayEffect Pink 
-	MinimapIcon 0 Pink Cross 
+	MinimapIcon 0 Pink Cross
+	PlayAlertSound 2 300
+    DisableDropSound
 Show
     Class "Amulets"
 	ItemLevel >= 84
@@ -19,9 +21,11 @@ Show
 	ItemLevel >= 84
 	Rarity = Rare
     SetBorderColor 255 20 147
+	MinimapIcon 1 Purple UpsideDownHouse
 Show	
     Class "Amulets"	
 	Rarity = Rare
 	SetTextColor 230 230 100
 	SetBackgroundColor 30 90 45
 	SetBorderColor 255 255 0
+	MinimapIcon 1 Green UpsideDownHouse
