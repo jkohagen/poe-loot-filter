@@ -25,3 +25,9 @@ Show
 	ItemLevel >= 84
 	Rarity = Rare
     SetBorderColor 255 20 147
+Show	
+    Class "Rings"	
+	Rarity = Rare
+	SetTextColor 230 230 100
+	SetBackgroundColor 30 90 45
+	SetBorderColor 255 255 0
