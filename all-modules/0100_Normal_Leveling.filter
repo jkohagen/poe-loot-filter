@@ -21,6 +21,16 @@ Show
 	SetBorderColor 255 255 255
 	SetBackgroundColor 0 0 0
 	SetFontSize 34
+# 4-Link
+Show
+	LinkedSockets = 4
+	ItemLevel <= 60
+	SetBorderColor 255 255 255
+	SetFontSize	34
+    PlayAlertSound 6 300
+    DisableDropSound
+    MinimapIcon 1 White Diamond
+
 Show
 	BaseType "Coral Amulet"
 	Rarity = Normal
@@ -49,7 +59,7 @@ Show
     SetTextColor 224 198 125
     SetBorderColor 224 198 125
 	SetBackgroundColor 42 42 42
-	ItemLevel <= 66
+	ItemLevel <= 70
 	SetFontSize 32
 
 Show
