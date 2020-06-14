@@ -1,0 +1,20 @@
+Show
+    BaseType "Coronal Maul" "Imperial Maul"
+    ItemLevel >= 84
+    Rarity <= Magic
+    SetBackgroundColor 255 20 147 100
+	SetBorderColor 0 0 0
+	SetTextColor 255 20 147
+Show
+    BaseType "Coronal Maul" "Imperial Maul"
+    ItemLevel >= 84
+    Rarity = Rare
+    SetBorderColor 255 20 147
+    MinimapIcon 1 Purple UpsideDownHouse
+ Show
+    BaseType "Coronal Maul" "Imperial Maul"
+	Rarity = Rare
+	SetTextColor 230 230 100
+	SetBackgroundColor 30 90 45
+	SetBorderColor 255 255 0
+    MinimapIcon 1 Green UpsideDownHouse

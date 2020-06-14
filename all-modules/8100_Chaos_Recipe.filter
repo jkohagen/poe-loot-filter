@@ -1,0 +1,5 @@
+Show
+	Class "Boots" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Helmet" "Gloves" "Body Armours" "Staves" "Bows" "Warstaves"
+	ItemLevel >= 60
+	Rarity = Rare
+	SetBorderColor 255 255 0
