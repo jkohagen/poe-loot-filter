@@ -7,6 +7,14 @@ Show
 	PlayEffect Pink 
 	MinimapIcon 0 Pink Cross 
 Show
+	BaseType "Stygian Vise"
+    SetTextColor 0 0 0
+    SetBackgroundColor 255 80 0
+    SetBorderColor 0 0 0
+    SetFontSize 42
+    PlayAlertSound 3 300
+    DisableDropSound
+Show
     Class "Belts"
 	ItemLevel >= 84
 	Rarity <= Magic
@@ -19,3 +27,9 @@ Show
 	ItemLevel >= 84
 	Rarity = Rare
     SetBorderColor 255 20 147
+Show	
+    Class "Belts"	
+	Rarity = Rare
+	SetTextColor 230 230 100
+	SetBackgroundColor 30 90 45
+	SetBorderColor 255 255 0
