@@ -1,0 +1,27 @@
+# Chrom	
+Show
+	SocketGroup RGB
+	LinkedSockets >= 3
+	Height <= 2
+	Width <= 2
+	AreaLevel <= 72
+	SetBorderColor 255 127 36
+	SetFontSize 40
+# Chrom	
+Show
+	SocketGroup RGB
+	LinkedSockets >= 3
+	Height >= 4
+	Width <= 1
+	AreaLevel <= 72
+	SetBorderColor 255 127 36
+	SetFontSize 32
+# Chrom	
+Show
+	SocketGroup RGB 
+	LinkedSockets >= 3
+	Height >= 3
+	Width <= 1
+	AreaLevel <= 72
+	SetBorderColor 255 127 36
+	SetFontSize 35

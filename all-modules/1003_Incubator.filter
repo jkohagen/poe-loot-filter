@@ -1,0 +1,8 @@
+Show
+	BaseType "Whispering Incubator" "Fine Incubator" "Singular Incubator" "Cartographer's Incubator" "Otherworldly Incubator" "Abyssal Incubator" "Fragmented Incubator" "Skittering Incubator" "Infused Incubator" "Fossilised Incubator" "Decadent Incubator" "Diviner's Incubator" "Primal Incubator" "Enchanted Incubator" "Geomancer's Incubator" "Ornate Incubator" "Time-Lost Incubator" "Celestial Armoursmith's Incubator" "Celestial Blacksmith's Incubator" "Celestial Jeweller's Incubator" "Eldritch Incubator" "Obscured Incubator" "Foreboding Incubator" "Thaumaturge's Incubator" "Mysterious Incubator" "Gemcutter's Incubator"
+	SetTextColor 0 0 0
+	SetBorderColor 14 186 255  
+	SetBackgroundColor 180 60 250
+	SetFontSize 42
+    PlayAlertSound 2 300
+    DisableDropSound	

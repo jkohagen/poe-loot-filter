@@ -1,0 +1,8 @@
+Show
+	BaseType "Turbulent Catalyst" "Imbued Catalyst" "Abrasive Catalyst" "Tempering Catalyst" "Fertile Catalyst" "Prismatic Catalyst" "Intrinsic Catalyst" "Crusader's Exalted Orb" "Redeemer's Exalted Orb" "Hunter's Exalted Orb" "Warlord's Exalted Orb" "Awakener's Orb" "Simple Sextant" "Prime Sextant" "Awakened Sextant"
+	SetTextColor 255 0 0 255
+    SetBorderColor 255 0 0 255
+    SetBackgroundColor 255 255 255
+	SetFontSize 45
+	PlayEffect Red
+	MinimapIcon 0 Red Hexagon

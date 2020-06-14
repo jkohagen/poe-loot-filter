@@ -1,0 +1,6 @@
+#exclude "Desert Brigandine" "Glorious Plate" "Agate Amulet" "Prophecy Wand" "Deicide Mask" "Karui Maul" "Jewelled Foil" "Gold Amulet" "Rawhide Tower Shield" "Occultist's Vestment" "Glorious Plate"
+Show
+	Rarity = Normal
+	BaseType "Nubuck Boots" "Onyx Amulet" "Archon Kite Shield"
+	SetBorderColor 27 162 155
+	SetFontSize 42

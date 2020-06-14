@@ -1,0 +1,14 @@
+Show 
+	Rarity = Rare
+    SetFontSize 22
+Show 
+	Rarity = Magic
+    ItemLevel <= 15
+Show
+	Class "Card" "Maps" "Map Fragments" "Misc Map Items" "Piece" "Labyrinth Map Item" "Stackable Currency" "Currency" "Microtransactions" "Incursion Item" "Hideout Doodads" "Pantheon Soul" "Leaguestones" "Small Relics" "Medium Relics" "Large Relics" "Labyrinth Item" "Labyrinth Trinket"
+    SetBackgroundColor 0 0 0
+    SetTextColor 255 0 220
+    SetBorderColor 255 0 220
+    SetFontSize 45
+    PlayAlertSound 13 300
+    DisableDropSound
