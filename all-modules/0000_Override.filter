@@ -21,6 +21,35 @@ Show
     DisableDropSound
     PlayEffect Orange 
 	MinimapIcon 0 Orange Hexagon
+# Veiled item
+Show
+	HasExplicitMod "Veil"
+	SetBorderColor 255 0 255
+	SetFontSize 45
+	PlayAlertSound 14 300
+    PlayEffect Pink
+# Elder item
+Show
+	ElderItem True 
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetBackgroundColor 0 150 180
+	SetFontSize	42
+    PlayAlertSound 11 300
+	MinimapIcon 1 Blue Star
+    DisableDropSound
+	PlayEffect Blue
+# Shaper item
+Show
+	ShaperItem True
+    SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+    SetBackgroundColor 0 150 180
+	SetFontSize	42
+    PlayAlertSound 11 300
+	MinimapIcon 1 Blue Star
+    DisableDropSound
+	PlayEffect Blue
 # 5-link
 Show
 	LinkedSockets = 5
@@ -41,3 +70,15 @@ Show
     PlayAlertSound 1 300
     DisableDropSound
     MinimapIcon 1 Brown Triangle
+
+
+# Delirium
+Show
+	BaseType "Simulacrum Splinter" "Simulacrum"
+	SetTextColor 0 0 0
+    SetBorderColor 0 0 0
+	SetBackgroundColor 86 109 128
+	SetFontSize 42
+	PlayEffect Grey
+    DisableDropSound
+	MinimapIcon 0 Grey Raindrop
