@@ -1,7 +1,11 @@
-Show 
+Show
+    Identified = True
+Show
+    Identified = False 
 	Rarity = Rare
     SetFontSize 22
 Show 
+    Identified = False 
 	Rarity = Magic
     ItemLevel <= 15
 Show
