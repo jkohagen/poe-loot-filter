@@ -6,14 +6,14 @@ Show
 	SetBorderColor 255 127 237
     SetTextColor 255 127 237
 	SetFontSize 35
-
+	MinimapIcon 1 Pink Star 
+	PlayEffect Pink
 # 2-Link
 Show
 	Rarity <= Magic
 	LinkedSockets = 2
 	ItemLevel <= 8
 	SetFontSize 34
-
 # 3-Link
 Show
 	LinkedSockets = 3
@@ -30,21 +30,18 @@ Show
     PlayAlertSound 6 300
     DisableDropSound
     MinimapIcon 1 White Diamond
-
 Show
 	BaseType "Coral Amulet"
 	Rarity = Normal
 	SetBorderColor 100 0 0
 	ItemLevel <= 15
 	SetFontSize 35
-
 Show
 	BaseType "Iron Ring" "Coral Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Two-Stone Ring" "Prismatic Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Agate Amulet" "Citrine Amulet" "Turquoise Amulet" "Onyx Amulet" "Rustic Sash" "Leather Belt"
 	Rarity = Normal
 	SetBorderColor 100 0 0
 	ItemLevel <= 33
 	SetFontSize 35
-
 Show
 	BaseType "Coral Amulet"
 	Rarity = Magic
@@ -61,7 +58,6 @@ Show
 	SetBackgroundColor 42 42 42
 	ItemLevel <= 70
 	SetFontSize 32
-
 Show
 	Class "Boots" "Rings" "Amulets" "Belts"
 	Rarity = Rare
