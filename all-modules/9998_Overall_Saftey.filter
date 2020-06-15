@@ -1,9 +1,12 @@
 Show
     Identified = True
+Show 
+	Rarity = Rare
+    AreaLevel <= 68
 Show
     Identified = False 
 	Rarity = Rare
-    SetFontSize 22
+    SetFontSize 24
 Show 
     Identified = False 
 	Rarity = Magic
